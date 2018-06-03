@@ -26,3 +26,13 @@ curl \
     --data '{"email":"fakeemail@gmail.com","url":"blah.com", "suggestions":[{"name_of_component":"textbox","original_text":"hahahahaah i am fake text please edit me", "altered_text":"hahahahaah I am edited text!!!","language":"Arabic","reason":"poor translation"}]}' \
     http://localhost:8000/wiki/
 ```
+
+```
+make migrations
+python manage.py makemigrations
+```
+
+```
+migrate
+python manage.py migrate
+```
