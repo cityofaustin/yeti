@@ -8,11 +8,13 @@ A cooler way for residents to suggest changes to austin.gov
 
 1. Install python3
 2. `python -m venv .env`
-3. `pip install django`
+3. `. .env/bin/activate`
+4. `pip install django`
 
 ### Running the API
 
-1. `python manage.py runserver`
+1. `. .env/bin/activate`
+2. `python manage.py runserver`
 
 ## Testing the API
 
