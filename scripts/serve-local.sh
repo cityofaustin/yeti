@@ -9,6 +9,7 @@ docker run \
     --rm \
     --name yeti \
     --tty --interactive \
+    --env PORT=80 \
     --publish 8888:80 \
     --volume "$PWD:/app" \
     "$TAG" "$@"
